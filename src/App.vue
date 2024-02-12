@@ -1,12 +1,8 @@
-<script setup lang="ts">
-for(let i=1;i<10;i++){
-  
-}
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="box">
-    <h1>我是app</h1>
+    <h1>燮燮</h1>
   </div>
 </template>
 
