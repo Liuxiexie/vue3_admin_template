@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-const str = '谢谢'
+for(let i=1;i<10;i++){
+  
+}
 </script>
 
 <template>
