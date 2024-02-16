@@ -1,15 +1,16 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { reqLogin } from '@/api/user/index.ts'
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  reqLogin({ username: 'admin', password: '111111' })
+})
+</script>
 
 <template>
-  <div class="box">
-    <h1>燮燮</h1>
+  <div>
+    <router-view></router-view>
   </div>
 </template>
 
-<style lang="scss" scoped>
-.box {
-  width: 600px;
-  height: 400px;
-  background: black;
-}
-</style>
+<style lang="scss" scoped></style>
